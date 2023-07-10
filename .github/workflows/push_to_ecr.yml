@@ -30,7 +30,7 @@ jobs:
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         ECR_REPOSITORY: clo835_week_09_assignment_02_app
-        IMAGE_TAG: v1.0
+        IMAGE_TAG: v1.1
       run: |
         ls -ltra
         # Docker build
